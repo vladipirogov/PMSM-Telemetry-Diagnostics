@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    entrypoint: >
+      /bin/sh -c "
+      ollama serve &
+      sleep 5 &&
+      ollama pull qllama/bge-small-en-v1.5 &&
+      wait
+      "
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=Europe/Kiev
+      - TZ=Europe/Kiev
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - /home/orangepi/n8n-docker/data:/home/node/.n8n
+    # Add the user property:
+    user: "${UID}:${GID}" # This will use your current host user's UID and GID
+    # depends_on:
+    #   - postgres # Remember to uncomment this if you add the postgres service
+    restart: unless-stopped
+  qdrant:
+    image: qdrant/qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+
+
+

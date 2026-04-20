@@ -43,6 +43,7 @@ Real-time diagnostics pipeline for PMSM (Permanent Magnet Synchronous Motor) dri
 |---|---|
 | `flows.json` | **Node-RED project flows** — import as a Node-RED project or copy to your userDir |
 | `settings.js` | **Node-RED runtime settings** — points `flowFile` to `flows.json`; copy to your Node-RED userDir |
+| `docker-compose.yml` | **Docker Compose stack** — Ollama, n8n, Qdrant in one command |
 | `node-red.js` | Source of the collector Function node (also embedded inside `flows.json`) |
 | `can_driver.js` | CAN frame pack/unpack helpers generated from `PMSM-demo.dbc` |
 | `PMSM_Diagnostic.json` | n8n flow — import directly into n8n |
@@ -159,6 +160,59 @@ Both main components were generated via LLM prompts. The prompts are preserved a
 - To modify the n8n flow logic → edit `n8n-PMSM_Diagnostic.md` and regenerate.
 
 This makes the `.md` files the source of truth, not comments inside the code.
+
+---
+
+## Docker Deployment
+
+All backend services (Ollama, n8n, Qdrant) can be started with a single command using the provided `docker-compose.yml`. Tested on ARM64 (Orange Pi / Raspberry Pi) and x86-64.
+
+### Prerequisites
+
+- Docker ≥ 24 and Docker Compose v2
+- On Linux, export your user IDs so n8n can write to its data volume:
+
+```bash
+export UID=$(id -u)
+export GID=$(id -g)
+```
+
+### Start the stack
+
+```bash
+docker compose up -d
+```
+
+On first start Ollama automatically pulls the embedding model (`qllama/bge-small-en-v1.5`). The chat model must be pulled separately:
+
+```bash
+docker exec -it ollama ollama pull gemma4:31b
+```
+
+### Service URLs after startup
+
+| Service | URL |
+|---|---|
+| Ollama API | `http://localhost:11434` |
+| n8n UI | `http://localhost:5678` |
+| Qdrant REST | `http://localhost:6333` |
+| Qdrant gRPC | `localhost:6334` |
+
+### Persistent data
+
+| Directory | Contents |
+|---|---|
+| `./ollama_data` | Downloaded Ollama models |
+| `./qdrant_data` | Qdrant vector storage |
+| `/home/orangepi/n8n-docker/data` | n8n workflows and credentials (adjust path as needed) |
+
+> **Note:** Node-RED is not included in the Docker stack — it runs separately and connects to the MQTT broker and CAN interface on the host.
+
+### Stop the stack
+
+```bash
+docker compose down
+```
 
 ---
 
