@@ -1,0 +1,3494 @@
+[
+    {
+        "id": "90e5c75767b44c31",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f8d5e1aad57fc427",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#dbcbe7",
+            "label": true
+        },
+        "nodes": [
+            "b86ea2fc26514353",
+            "87709e03f0295893",
+            "660452cf0a78d670",
+            "d42540ff76fa3615",
+            "9e4f73259d1af359",
+            "eb07fc29be0eca4b"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 612,
+        "h": 182
+    },
+    {
+        "id": "fe7f38753b062134",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "34f4ce7720d67b8a",
+            "df724d062b4f00c2",
+            "2df4bad1b567fbef",
+            "84b9e298b93f7463",
+            "0f81437df8da433c",
+            "0625a66a0d3ef491",
+            "f298ad4df1824f06",
+            "3c5fddcc5df83a4f",
+            "48adf168c64a5cb8",
+            "c1d85f1d39ac411a",
+            "dd25013623d893b7",
+            "a10e027f1bf326f7",
+            "961ac12564b28df8",
+            "41f1463fcdde4404",
+            "bc5bd78e72a7a450"
+        ],
+        "x": 14,
+        "y": 419,
+        "w": 772,
+        "h": 342
+    },
+    {
+        "id": "d1e39630184a5f96",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "5d5e138a62f1d4ab",
+            "33ea4a9e22166511",
+            "33114b7bb8ad9ce4",
+            "aeaefb6e65b655e5",
+            "7c8c150f39888f6b",
+            "20a41e5d756b7470",
+            "1853d31d597e1d39",
+            "7d1bd7b745e496c4",
+            "bcea8f8ab3beaa38",
+            "35298724b1ccc852",
+            "31b38dca540cb286",
+            "13b506887d085689",
+            "ad6bd397bb42dd93",
+            "78b9ea31b5af9d04",
+            "944e3bc66384ebba",
+            "c4710ee09c8ac4ca"
+        ],
+        "x": 14,
+        "y": 799,
+        "w": 572,
+        "h": 342
+    },
+    {
+        "id": "fa71555643db3129",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "add00a718ed1c6ba",
+            "fb01bd08c975802e",
+            "abbb7338a65c144f",
+            "a3db02cd796a99dd",
+            "c4a6aa74a69d63ad",
+            "9e0af870d75d5ea9",
+            "4b534b6a087ee142",
+            "a6ec109815cc134d",
+            "b21ab2eba8ca26c7",
+            "f54a2244766ad209",
+            "da65d9df3d4d23af",
+            "8d12f329e88e2656",
+            "a185f9b9945bdc5c",
+            "de8dac42ae0328c3",
+            "86ad71f61bf2e026",
+            "4d7099b4a1794b00"
+        ],
+        "x": 24,
+        "y": 1179,
+        "w": 622,
+        "h": 402
+    },
+    {
+        "id": "c0a9eee0ef387fb0",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#e3f3d3",
+            "label": true
+        },
+        "nodes": [
+            "a7dfc730c84bb4aa",
+            "c9bc6ea6de1e48a3",
+            "9944523f2d784c93",
+            "8ddf1569377fe583",
+            "95fa06c33209a533"
+        ],
+        "x": 14,
+        "y": 239,
+        "w": 572,
+        "h": 142
+    },
+    {
+        "id": "aa1bf3afa0df116b",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "label": true,
+            "color": "#dbcbe7",
+            "fill": "#bfc7d7"
+        },
+        "nodes": [
+            "2b28422cc378112c",
+            "be49ba30bf6262c6",
+            "67214c0f856ca52a",
+            "194fb80ef2700b39",
+            "00d06b58557c60fb",
+            "73dbbce5aa6fc95c",
+            "0e19375b7ada6d14",
+            "e64f908612698b75",
+            "c868999fb79bd5ee",
+            "527166816ad5293b",
+            "c50cf783faf1c7d4",
+            "6f94c1869e07d134",
+            "1cc03a1aee1f20f1",
+            "097d7154dc590a4a",
+            "3e5dcf5341feea8b",
+            "7ad4c086b2784836",
+            "8be6e4e823179a35",
+            "2cab91c476e1fb98",
+            "79ab4552186312b0",
+            "e37da85275550f2e",
+            "810559d2c613474a",
+            "848e6aa47351b9f3",
+            "4fa0e2d1806dea8b",
+            "6ab9b77e74fae5cb",
+            "4dff843f2d813952"
+        ],
+        "x": 34,
+        "y": 2539,
+        "w": 912,
+        "h": 482
+    },
+    {
+        "id": "9894bc534259e126",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "name": "",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true
+        },
+        "nodes": [
+            "87beada7ea7472c2",
+            "bebde175b0ee2677",
+            "42729f5c5f01437b",
+            "4b96745f0c7a124a",
+            "ced6d533adf7dcd7",
+            "b407172d6469e5ba",
+            "098e26dea6c871ec",
+            "d0660b78a0fa53a1",
+            "2bb664fcf78509b2",
+            "c646f2f45a2032ec",
+            "a45e4ebf54f7c7c2",
+            "e251d1f8c38f3f06",
+            "7ec3a8c143ba2624",
+            "6802ad95511bfbcc",
+            "ba421389dec2533b",
+            "3dc43c5c3877e761"
+        ],
+        "x": 24,
+        "y": 1619,
+        "w": 622,
+        "h": 402
+    },
+    {
+        "id": "b5d6cbe3ba5e0b28",
+        "type": "group",
+        "z": "90e5c75767b44c31",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d14e5465800d177b",
+            "55b5947934c0a7c9",
+            "97eafd3fe683f687",
+            "da5344d77a293210",
+            "7e313905d1137cb9",
+            "50d2d1914f4bcab2",
+            "58f0fef6b6b8464b",
+            "860e6b8417f13617",
+            "40717bf44084905a",
+            "15a90646af0bc1a8",
+            "9730560d54510fd7",
+            "f95173d9156701a9",
+            "df32ffcc5624903c",
+            "516bcddf845f49e4",
+            "240974632ace126c",
+            "6b48892f2725bcf2",
+            "e51cac57449e5945",
+            "6a52e0d2f3ebb812",
+            "64e3b5cd9b842fcb",
+            "f9bab8aef5dedb1b",
+            "70d199f20311b502",
+            "973c0443d868fe18",
+            "7e3e121768bb86b2",
+            "11e374e52e7304b1",
+            "b7d7275fa75050eb",
+            "4acf62286c8bdca0",
+            "a1e7320732041d3a",
+            "a7c5942d1ca66176",
+            "b598c83ae262b272",
+            "edb2285f55410b9c"
+        ],
+        "x": 24,
+        "y": 2059,
+        "w": 1282,
+        "h": 442
+    },
+    {
+        "id": "bfb1b9d58ee1efe3",
+        "type": "socketcan-config",
+        "interface": "can0"
+    },
+    {
+        "id": "f82f32134d657e31",
+        "type": "socketcan-config",
+        "interface": "vcan0"
+    },
+    {
+        "id": "05b2dfb227bed84b",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "b760af276ac97583",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "da57633ec386c457",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "05b2dfb227bed84b",
+        "path": "/dashboard",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "b760af276ac97583",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "138840944464e75e",
+        "type": "ui-group",
+        "name": "Group 1",
+        "page": "da57633ec386c457",
+        "width": 3,
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3a6796bdec01898f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5372e1267c717adf",
+        "type": "modbus-client",
+        "name": "",
+        "clienttype": "simpleser",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": 502,
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyS7",
+        "serialType": "RTU",
+        "serialBaudrate": "115200",
+        "serialDatabits": 8,
+        "serialStopbits": 1,
+        "serialParity": "none",
+        "serialConnectionDelay": 100,
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "88250ba778969ed1",
+        "type": "ui-group",
+        "name": "K 1",
+        "page": "da57633ec386c457",
+        "width": "2",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "31c499fa5e80576e",
+        "type": "ui-group",
+        "name": "K 2",
+        "page": "da57633ec386c457",
+        "width": "2",
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "13cfea7f2c49e74c",
+        "type": "ui-group",
+        "name": "Flow",
+        "page": "da57633ec386c457",
+        "width": "2",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "da033a6245be7e06",
+        "type": "ui-spacer",
+        "group": "88250ba778969ed1",
+        "name": "spacer",
+        "order": 2,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "da033a80ee059b70",
+        "type": "ui-spacer",
+        "group": "88250ba778969ed1",
+        "name": "spacer",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "da033bf15928ec5e",
+        "type": "ui-spacer",
+        "group": "31c499fa5e80576e",
+        "name": "spacer",
+        "order": 2,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "da033c0015c38835",
+        "type": "ui-spacer",
+        "group": "31c499fa5e80576e",
+        "name": "spacer",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "className": ""
+    },
+    {
+        "id": "34f4ce7720d67b8a",
+        "type": "debug",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 490,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "a7dfc730c84bb4aa",
+        "type": "socketcan-in",
+        "z": "90e5c75767b44c31",
+        "g": "c0a9eee0ef387fb0",
+        "name": "socketcan-out",
+        "config": "bfb1b9d58ee1efe3",
+        "x": 220,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "df724d062b4f00c2",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "Send object - std",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ext\":false,\"canid\":256,\"dlc\":6,\"data\":[1,0,0,0,0,0]}",
+        "payloadType": "json",
+        "x": 140,
+        "y": 500,
+        "wires": [
+            [
+                "3c5fddcc5df83a4f"
+            ]
+        ]
+    },
+    {
+        "id": "2df4bad1b567fbef",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "Send CAN frames in using different payloads on VCAN0",
+        "info": "",
+        "x": 240,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "84b9e298b93f7463",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "Receive CAN data from interface VCAN0",
+        "info": "",
+        "x": 200,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "0f81437df8da433c",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "function 1",
+        "func": "// Input: msg.payload already parsed JSON (MQTT-in node with JSON enabled)\n\n// const stateMap = {\n//     22: \"OTF_BRAKE\",\n//     21: \"OTF_DETECTION\",\n//     20: \"WAIT_STOP_MOTOR\",\n//     11: \"FAULT_OVER\",\n//     10: \"FAULT_NOW\",\n//     8:  \"STOP\",\n//     6:  \"RUN\",\n//     4:  \"START\",\n//     2:  \"ALIGNMENT\",\n//     0:  \"IDLE\"\n// };\n\nvar stateMap = flow.get('stateMap')\n\nconst frame = msg.payload;\n\n// --- Validate ---\nif (!frame || frame.canid !== 0x200) {\n    return null;\n}\n\nif (!Array.isArray(frame.data) || frame.data.length < 5) {\n    node.error(\"Invalid CAN data\");\n    return null;\n}\n\n// --- Decode ---\nconst data = frame.data;\n\nconst stateRaw = data[0];\nconst state = stateMap[stateRaw] || \"UNKNOWN\";\n\n// little-endian int32\nlet speed =\n    (data[1]) |\n    (data[2] << 8) |\n    (data[3] << 16) |\n    (data[4] << 24);\n\nspeed = speed | 0;\n\n// --- Output ---\nmsg.payload = {\n    canid: frame.canid,\n    dlc: frame.dlc,\n    state_raw: stateRaw,\n    state: state,\n    speed_rpm: speed\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "34f4ce7720d67b8a",
+                "0625a66a0d3ef491",
+                "f298ad4df1824f06",
+                "a10e027f1bf326f7"
+            ]
+        ]
+    },
+    {
+        "id": "0625a66a0d3ef491",
+        "type": "ui-gauge",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "Speed",
+        "group": "138840944464e75e",
+        "order": 1,
+        "value": "payload.speed_rpm",
+        "valueType": "msg",
+        "width": 2,
+        "height": "4",
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "Speed",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "RPM",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "-1500",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "-1000",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1000",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1500",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": "-1500",
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 490,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f298ad4df1824f06",
+        "type": "ui-text",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "group": "138840944464e75e",
+        "order": 2,
+        "width": 1,
+        "height": 0,
+        "name": "",
+        "label": "State:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload.state",
+        "valueType": "msg",
+        "x": 490,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "b86ea2fc26514353",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "9e4f73259d1af359"
+            ]
+        ]
+    },
+    {
+        "id": "87709e03f0295893",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "d42540ff76fa3615"
+            ]
+        ]
+    },
+    {
+        "id": "660452cf0a78d670",
+        "type": "debug",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "d42540ff76fa3615",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "flow_get_stateMap",
+        "func": "msg.payload = flow.get('stateMap')\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "660452cf0a78d670"
+            ]
+        ]
+    },
+    {
+        "id": "9e4f73259d1af359",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "flow_stateMap",
+        "func": "const stateMap = {\n    22: \"OTF_BRAKE\",\n    21: \"OTF_DETECTION\",\n    20: \"WAIT_STOP_MOTOR\",\n    11: \"FAULT_OVER\",\n    10: \"FAULT_NOW\",\n    8:  \"STOP\",\n    6:  \"RUN\",\n    4:  \"START\",\n    2:  \"ALIGNMENT\",\n    0:  \"IDLE\"\n};\nflow.set('stateMap', stateMap)\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb07fc29be0eca4b",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "f8d5e1aad57fc427",
+        "name": "Flow set stateMap",
+        "info": "",
+        "x": 150,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "add00a718ed1c6ba",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "Modbus RTU read coil 1",
+        "info": "",
+        "x": 190,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "fb01bd08c975802e",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 1260,
+        "wires": [
+            [
+                "a3db02cd796a99dd"
+            ]
+        ]
+    },
+    {
+        "id": "abbb7338a65c144f",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "Modbus RTU write ON coil 1",
+        "info": "",
+        "x": 200,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "a3db02cd796a99dd",
+        "type": "modbus-write",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "32",
+        "quantity": "1",
+        "server": "5372e1267c717adf",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 380,
+        "y": 1260,
+        "wires": [
+            [
+                "da65d9df3d4d23af"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c4a6aa74a69d63ad",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 1400,
+        "wires": [
+            [
+                "4b534b6a087ee142"
+            ]
+        ]
+    },
+    {
+        "id": "9e0af870d75d5ea9",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "Modbus RTU write OFF coil 1",
+        "info": "",
+        "x": 200,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "4b534b6a087ee142",
+        "type": "modbus-write",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "32",
+        "quantity": "1",
+        "server": "5372e1267c717adf",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 380,
+        "y": 1400,
+        "wires": [
+            [
+                "8d12f329e88e2656"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a6ec109815cc134d",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "group": "88250ba778969ed1",
+        "name": "",
+        "label": "Coil OFF",
+        "order": 5,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "3",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 1440,
+        "wires": [
+            [
+                "4b534b6a087ee142"
+            ]
+        ]
+    },
+    {
+        "id": "b21ab2eba8ca26c7",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "group": "88250ba778969ed1",
+        "name": "",
+        "label": "Coil ON",
+        "order": 4,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 1300,
+        "wires": [
+            [
+                "a3db02cd796a99dd"
+            ]
+        ]
+    },
+    {
+        "id": "5d5e138a62f1d4ab",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "Speed setup",
+        "info": "",
+        "x": 110,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "33ea4a9e22166511",
+        "type": "ui-slider",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "group": "138840944464e75e",
+        "name": "",
+        "label": "Speed",
+        "tooltip": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "-1500",
+        "max": "1500",
+        "step": "100",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 190,
+        "y": 880,
+        "wires": [
+            [
+                "33114b7bb8ad9ce4"
+            ]
+        ]
+    },
+    {
+        "id": "33114b7bb8ad9ce4",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "function 2",
+        "func": "// 1. Get the input speed (default to 0 if not provided)\nlet speed = msg.payload || 0;\n\n// 2. Create a buffer to handle the signed 32-bit integer conversion\n// This ensures negative numbers are correctly represented in Two's Complement\nlet buf = Buffer.alloc(4);\nbuf.writeInt32LE(speed); // LE = Little Endian (Byte 0 is least significant)\n\n// 3. Construct the CAN payload\nmsg.payload = {\n    \"ext\": false,\n    \"canid\": 256,\n    \"dlc\": 6,\n    \"data\": [\n        1,            // Byte 0: motor_state (always 1 per your rule)\n        buf[0],       // Byte 1: speed_rpm bits 0-7\n        buf[1],       // Byte 2: speed_rpm bits 8-15\n        buf[2],       // Byte 3: speed_rpm bits 16-23\n        buf[3],       // Byte 4: speed_rpm bits 24-31\n        0             // Byte 5: Unused/Padding\n    ]\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 880,
+        "wires": [
+            [
+                "aeaefb6e65b655e5"
+            ]
+        ]
+    },
+    {
+        "id": "c9bc6ea6de1e48a3",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "c0a9eee0ef387fb0",
+        "name": "socketcan",
+        "links": [
+            "aeaefb6e65b655e5",
+            "3c5fddcc5df83a4f",
+            "20a41e5d756b7470",
+            "7d1bd7b745e496c4",
+            "35298724b1ccc852",
+            "860e6b8417f13617"
+        ],
+        "x": 65,
+        "y": 340,
+        "wires": [
+            [
+                "a7dfc730c84bb4aa"
+            ]
+        ]
+    },
+    {
+        "id": "aeaefb6e65b655e5",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 545,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "3c5fddcc5df83a4f",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 355,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7c8c150f39888f6b",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "group": "138840944464e75e",
+        "name": "",
+        "label": "Start",
+        "order": 5,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ext\":false,\"canid\":256,\"dlc\":6,\"data\":[1,0,0,0,0,0]}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 940,
+        "wires": [
+            [
+                "20a41e5d756b7470",
+                "c4710ee09c8ac4ca"
+            ]
+        ]
+    },
+    {
+        "id": "20a41e5d756b7470",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 295,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "1853d31d597e1d39",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "group": "138840944464e75e",
+        "name": "",
+        "label": "Stop",
+        "order": 6,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ext\":false,\"canid\":256,\"dlc\":6,\"data\":[2,0,0,0,0,0]}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 1000,
+        "wires": [
+            [
+                "7d1bd7b745e496c4",
+                "ad6bd397bb42dd93"
+            ]
+        ]
+    },
+    {
+        "id": "7d1bd7b745e496c4",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 295,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "bcea8f8ab3beaa38",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "group": "138840944464e75e",
+        "name": "",
+        "label": "ACK",
+        "order": 7,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"ext\":false,\"canid\":256,\"dlc\":6,\"data\":[3,0,0,0,0,0]}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "yellow",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 170,
+        "y": 1100,
+        "wires": [
+            [
+                "35298724b1ccc852"
+            ]
+        ]
+    },
+    {
+        "id": "35298724b1ccc852",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 295,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "f54a2244766ad209",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "set payload[0]",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1540,
+        "wires": [
+            [
+                "a185f9b9945bdc5c"
+            ]
+        ]
+    },
+    {
+        "id": "da65d9df3d4d23af",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [],
+        "x": 565,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "8d12f329e88e2656",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [],
+        "x": 565,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "a185f9b9945bdc5c",
+        "type": "ui-led",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "group": "88250ba778969ed1",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "label": "%QX0.0 - GP14",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#ff0000"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 570,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "31b38dca540cb286",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "speed_ref",
+        "links": [
+            "13b506887d085689",
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 880,
+        "wires": [
+            [
+                "33ea4a9e22166511"
+            ]
+        ]
+    },
+    {
+        "id": "13b506887d085689",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "31b38dca540cb286"
+        ],
+        "x": 515,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "ad6bd397bb42dd93",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "set 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 1040,
+        "wires": [
+            [
+                "13b506887d085689"
+            ]
+        ]
+    },
+    {
+        "id": "9944523f2d784c93",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "c0a9eee0ef387fb0",
+        "name": "Socket canbus",
+        "info": "",
+        "x": 120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "8ddf1569377fe583",
+        "type": "socketcan-out",
+        "z": "90e5c75767b44c31",
+        "g": "c0a9eee0ef387fb0",
+        "name": "socketcan-out",
+        "config": "bfb1b9d58ee1efe3",
+        "x": 430,
+        "y": 340,
+        "wires": [
+            [
+                "95fa06c33209a533"
+            ]
+        ]
+    },
+    {
+        "id": "95fa06c33209a533",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "c0a9eee0ef387fb0",
+        "name": "socketcan-out",
+        "mode": "link",
+        "links": [
+            "48adf168c64a5cb8",
+            "2b28422cc378112c"
+        ],
+        "x": 545,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "48adf168c64a5cb8",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "link in 1",
+        "links": [
+            "95fa06c33209a533"
+        ],
+        "x": 115,
+        "y": 580,
+        "wires": [
+            [
+                "0f81437df8da433c"
+            ]
+        ]
+    },
+    {
+        "id": "2b28422cc378112c",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link in 2",
+        "links": [
+            "95fa06c33209a533"
+        ],
+        "x": 85,
+        "y": 2780,
+        "wires": [
+            [
+                "194fb80ef2700b39"
+            ]
+        ]
+    },
+    {
+        "id": "be49ba30bf6262c6",
+        "type": "debug",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "switch_analyze",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "67214c0f856ca52a",
+        "type": "mqtt out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "",
+        "topic": "node-red/request",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3a6796bdec01898f",
+        "x": 750,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "527166816ad5293b",
+        "type": "mqtt in",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "",
+        "topic": "node-red/data",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3a6796bdec01898f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 2900,
+        "wires": [
+            [
+                "6f94c1869e07d134"
+            ]
+        ]
+    },
+    {
+        "id": "c50cf783faf1c7d4",
+        "type": "debug",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 510,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "6f94c1869e07d134",
+        "type": "json",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 320,
+        "y": 2900,
+        "wires": [
+            [
+                "c50cf783faf1c7d4",
+                "79ab4552186312b0",
+                "4dff843f2d813952"
+            ]
+        ]
+    },
+    {
+        "id": "194fb80ef2700b39",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "switch_analyze",
+        "property": "enabled",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 200,
+        "y": 2780,
+        "wires": [
+            [
+                "6ab9b77e74fae5cb"
+            ]
+        ]
+    },
+    {
+        "id": "00d06b58557c60fb",
+        "type": "ui-switch",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "",
+        "label": "Analyze",
+        "group": "138840944464e75e",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 190,
+        "y": 2640,
+        "wires": [
+            [
+                "73dbbce5aa6fc95c",
+                "848e6aa47351b9f3"
+            ]
+        ]
+    },
+    {
+        "id": "73dbbce5aa6fc95c",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "switch_analyze",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 2640,
+        "wires": [
+            [
+                "7ad4c086b2784836"
+            ]
+        ]
+    },
+    {
+        "id": "0e19375b7ada6d14",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "switch_analyze_false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 2820,
+        "wires": [
+            [
+                "e64f908612698b75"
+            ]
+        ]
+    },
+    {
+        "id": "e64f908612698b75",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "switch_analyze",
+        "mode": "link",
+        "links": [
+            "c868999fb79bd5ee"
+        ],
+        "x": 905,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "c868999fb79bd5ee",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link in 3",
+        "links": [
+            "e64f908612698b75"
+        ],
+        "x": 75,
+        "y": 2640,
+        "wires": [
+            [
+                "00d06b58557c60fb"
+            ]
+        ]
+    },
+    {
+        "id": "1cc03a1aee1f20f1",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "Analyze cnabus messages for the period by LLM",
+        "info": "",
+        "x": 250,
+        "y": 2580,
+        "wires": []
+    },
+    {
+        "id": "097d7154dc590a4a",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "analyze_led",
+        "links": [
+            "7ad4c086b2784836",
+            "e37da85275550f2e",
+            "8be6e4e823179a35"
+        ],
+        "x": 75,
+        "y": 2700,
+        "wires": [
+            [
+                "3e5dcf5341feea8b"
+            ]
+        ]
+    },
+    {
+        "id": "3e5dcf5341feea8b",
+        "type": "ui-led",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "Analyzing",
+        "group": "138840944464e75e",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "label": "Analyzing",
+        "labelPlacement": "right",
+        "labelAlignment": "flex-start",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#e3e3e3"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": false,
+        "showGlow": false,
+        "x": 190,
+        "y": 2700,
+        "wires": []
+    },
+    {
+        "id": "7ad4c086b2784836",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "097d7154dc590a4a"
+        ],
+        "x": 525,
+        "y": 2640,
+        "wires": []
+    },
+    {
+        "id": "8be6e4e823179a35",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "097d7154dc590a4a"
+        ],
+        "x": 905,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "2cab91c476e1fb98",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "analyzing_led_true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 2880,
+        "wires": [
+            [
+                "8be6e4e823179a35"
+            ]
+        ]
+    },
+    {
+        "id": "79ab4552186312b0",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "analyzing_led_false",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 2980,
+        "wires": [
+            [
+                "e37da85275550f2e"
+            ]
+        ]
+    },
+    {
+        "id": "e37da85275550f2e",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link out 11",
+        "mode": "link",
+        "links": [
+            "097d7154dc590a4a"
+        ],
+        "x": 685,
+        "y": 2980,
+        "wires": []
+    },
+    {
+        "id": "810559d2c613474a",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "analyzed_text",
+        "links": [
+            "4fa0e2d1806dea8b"
+        ],
+        "x": 365,
+        "y": 2860,
+        "wires": [
+            [
+                "4dff843f2d813952"
+            ]
+        ]
+    },
+    {
+        "id": "848e6aa47351b9f3",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "clear_analyzed_text",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 2680,
+        "wires": [
+            [
+                "4fa0e2d1806dea8b"
+            ]
+        ]
+    },
+    {
+        "id": "4fa0e2d1806dea8b",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "link out 12",
+        "mode": "link",
+        "links": [
+            "810559d2c613474a"
+        ],
+        "x": 565,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "de8dac42ae0328c3",
+        "type": "modbus-read",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "5372e1267c717adf",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 190,
+        "y": 1540,
+        "wires": [
+            [
+                "f54a2244766ad209"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "87beada7ea7472c2",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "Modbus RTU read coil 2",
+        "info": "",
+        "x": 190,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "bebde175b0ee2677",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 1700,
+        "wires": [
+            [
+                "4b96745f0c7a124a"
+            ]
+        ]
+    },
+    {
+        "id": "42729f5c5f01437b",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "Modbus RTU write ON coil 2",
+        "info": "",
+        "x": 200,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "4b96745f0c7a124a",
+        "type": "modbus-write",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "32",
+        "quantity": "1",
+        "server": "5372e1267c717adf",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 380,
+        "y": 1700,
+        "wires": [
+            [
+                "a45e4ebf54f7c7c2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ced6d533adf7dcd7",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 1840,
+        "wires": [
+            [
+                "098e26dea6c871ec"
+            ]
+        ]
+    },
+    {
+        "id": "b407172d6469e5ba",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "Modbus RTU write OFF coil 2",
+        "info": "",
+        "x": 200,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "098e26dea6c871ec",
+        "type": "modbus-write",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "32",
+        "quantity": "1",
+        "server": "5372e1267c717adf",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 380,
+        "y": 1840,
+        "wires": [
+            [
+                "e251d1f8c38f3f06"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d0660b78a0fa53a1",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "group": "31c499fa5e80576e",
+        "name": "",
+        "label": "Coil OFF",
+        "order": 5,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "4",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "red",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 1880,
+        "wires": [
+            [
+                "098e26dea6c871ec"
+            ]
+        ]
+    },
+    {
+        "id": "2bb664fcf78509b2",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "group": "31c499fa5e80576e",
+        "name": "",
+        "label": "Coil ON",
+        "order": 4,
+        "width": 1,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "2",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 1740,
+        "wires": [
+            [
+                "4b96745f0c7a124a"
+            ]
+        ]
+    },
+    {
+        "id": "c646f2f45a2032ec",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "set payload[0]",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 1980,
+        "wires": [
+            [
+                "7ec3a8c143ba2624"
+            ]
+        ]
+    },
+    {
+        "id": "a45e4ebf54f7c7c2",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "link out 13",
+        "mode": "link",
+        "links": [],
+        "x": 565,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "e251d1f8c38f3f06",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "link out 14",
+        "mode": "link",
+        "links": [],
+        "x": 565,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "7ec3a8c143ba2624",
+        "type": "ui-led",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "group": "31c499fa5e80576e",
+        "order": 1,
+        "width": "",
+        "height": "",
+        "label": "%QX0.1 - GP15",
+        "labelPlacement": "right",
+        "labelAlignment": "center",
+        "states": [
+            {
+                "value": "false",
+                "valueType": "bool",
+                "color": "#ff0000"
+            },
+            {
+                "value": "true",
+                "valueType": "bool",
+                "color": "#00ff00"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showBorder": true,
+        "showGlow": true,
+        "x": 570,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "6802ad95511bfbcc",
+        "type": "modbus-read",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "Coil",
+        "adr": "1",
+        "quantity": "1",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "5372e1267c717adf",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 190,
+        "y": 1980,
+        "wires": [
+            [
+                "c646f2f45a2032ec"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d14e5465800d177b",
+        "type": "ui-button",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "group": "13cfea7f2c49e74c",
+        "name": "",
+        "label": "START",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "5",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 360,
+        "y": 2260,
+        "wires": [
+            [
+                "55b5947934c0a7c9"
+            ]
+        ]
+    },
+    {
+        "id": "55b5947934c0a7c9",
+        "type": "modbus-write",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "32",
+        "quantity": "1",
+        "server": "5372e1267c717adf",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 560,
+        "y": 2260,
+        "wires": [
+            [
+                "edb2285f55410b9c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "97eafd3fe683f687",
+        "type": "modbus-read",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "10",
+        "dataType": "HoldingRegister",
+        "adr": "33",
+        "quantity": "1",
+        "rate": "500",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "enableDeformedMessages": false,
+        "startDelayTime": "",
+        "server": "5372e1267c717adf",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 170,
+        "y": 2320,
+        "wires": [
+            [
+                "50d2d1914f4bcab2",
+                "40717bf44084905a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "da5344d77a293210",
+        "type": "ui-text",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "group": "13cfea7f2c49e74c",
+        "order": 2,
+        "width": 1,
+        "height": 0,
+        "name": "",
+        "label": "State:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": true,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 570,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "7e313905d1137cb9",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "Modbus START Flow",
+        "info": "",
+        "x": 180,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "50d2d1914f4bcab2",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "set payload[0]",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 2320,
+        "wires": [
+            [
+                "da5344d77a293210"
+            ]
+        ]
+    },
+    {
+        "id": "58f0fef6b6b8464b",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "targetRpm",
+        "func": "\nconst can = global.get('canDriver');\n\n// Accept speed_rpm from inject node (msg.payload = number)\n// or from dashboard slider (msg.payload = number)\nconst targetRpm = Number(msg.payload);\n\nif (!can.speedControlMsgSpeedRpmIsInRange(can.speedControlMsgSpeedRpmEncode(targetRpm))) {\n    node.warn(`Speed ${targetRpm} RPM out of range [-1750, 1750] — command blocked`);\n    return null;\n}\n\nmsg.payload = {\n    canid: can.FRAME_ID.SPEED_CONTROL_MSG,   // 256 = 0x100\n    dlc:   can.FRAME_LENGTH.SPEED_CONTROL_MSG,\n    data:  Array.from(can.speedControlMsgPack({\n        control_cmd: can.CONTROL_CMD.CAN_CMD_START,\n        speed_rpm:   can.speedControlMsgSpeedRpmEncode(targetRpm),\n    })),\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 2380,
+        "wires": [
+            [
+                "860e6b8417f13617"
+            ]
+        ]
+    },
+    {
+        "id": "860e6b8417f13617",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "link out 15",
+        "mode": "link",
+        "links": [
+            "c9bc6ea6de1e48a3"
+        ],
+        "x": 1015,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "40717bf44084905a",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "check state",
+        "property": "payload[0]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 370,
+        "y": 2380,
+        "wires": [
+            [
+                "6a52e0d2f3ebb812"
+            ],
+            [
+                "e51cac57449e5945"
+            ],
+            [
+                "516bcddf845f49e4"
+            ]
+        ]
+    },
+    {
+        "id": "15a90646af0bc1a8",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "targetRpm 100",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "100",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 2380,
+        "wires": [
+            [
+                "58f0fef6b6b8464b",
+                "b7d7275fa75050eb"
+            ]
+        ]
+    },
+    {
+        "id": "9730560d54510fd7",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "targetRpm 1000",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1000",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 700,
+        "y": 2420,
+        "wires": [
+            [
+                "58f0fef6b6b8464b",
+                "b7d7275fa75050eb"
+            ]
+        ]
+    },
+    {
+        "id": "f95173d9156701a9",
+        "type": "ui-switch",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "",
+        "label": "Manual",
+        "group": "13cfea7f2c49e74c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 160,
+        "y": 2200,
+        "wires": [
+            [
+                "df32ffcc5624903c"
+            ]
+        ]
+    },
+    {
+        "id": "df32ffcc5624903c",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "auto mode",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mode",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 330,
+        "y": 2200,
+        "wires": [
+            [
+                "f9bab8aef5dedb1b"
+            ]
+        ]
+    },
+    {
+        "id": "516bcddf845f49e4",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "is_false",
+        "property": "mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 2460,
+        "wires": [
+            [
+                "240974632ace126c"
+            ]
+        ]
+    },
+    {
+        "id": "240974632ace126c",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "Stop drive",
+        "func": "const can = global.get('canDriver');\n\nmsg.payload = {\n    canid: can.FRAME_ID.SPEED_CONTROL_MSG,\n    dlc:   can.FRAME_LENGTH.SPEED_CONTROL_MSG,\n    data:  Array.from(can.speedControlMsgPack({\n        control_cmd: can.CONTROL_CMD.CAN_CMD_STOP,   // = 2\n        speed_rpm:   0,\n    })),\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 2460,
+        "wires": [
+            [
+                "860e6b8417f13617",
+                "4acf62286c8bdca0"
+            ]
+        ]
+    },
+    {
+        "id": "6b48892f2725bcf2",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "auto",
+        "mode": "link",
+        "links": [
+            "944e3bc66384ebba",
+            "78b9ea31b5af9d04",
+            "31b38dca540cb286",
+            "ba421389dec2533b",
+            "3dc43c5c3877e761",
+            "86ad71f61bf2e026",
+            "4d7099b4a1794b00",
+            "70d199f20311b502"
+        ],
+        "x": 615,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "e51cac57449e5945",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "is_false",
+        "property": "mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 2420,
+        "wires": [
+            [
+                "9730560d54510fd7"
+            ]
+        ]
+    },
+    {
+        "id": "6a52e0d2f3ebb812",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "is_false",
+        "property": "mode",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 2380,
+        "wires": [
+            [
+                "15a90646af0bc1a8"
+            ]
+        ]
+    },
+    {
+        "id": "64e3b5cd9b842fcb",
+        "type": "inject",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 150,
+        "y": 2140,
+        "wires": [
+            [
+                "f9bab8aef5dedb1b"
+            ]
+        ]
+    },
+    {
+        "id": "78b9ea31b5af9d04",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "drive_on",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 55,
+        "y": 940,
+        "wires": [
+            [
+                "7c8c150f39888f6b"
+            ]
+        ]
+    },
+    {
+        "id": "944e3bc66384ebba",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "drive_off",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 55,
+        "y": 1000,
+        "wires": [
+            [
+                "1853d31d597e1d39"
+            ]
+        ]
+    },
+    {
+        "id": "f9bab8aef5dedb1b",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "enabled",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 2200,
+        "wires": [
+            [
+                "6b48892f2725bcf2"
+            ]
+        ]
+    },
+    {
+        "id": "ba421389dec2533b",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "link in 4",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 1880,
+        "wires": [
+            [
+                "d0660b78a0fa53a1"
+            ]
+        ]
+    },
+    {
+        "id": "3dc43c5c3877e761",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "9894bc534259e126",
+        "name": "link in 5",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 1740,
+        "wires": [
+            [
+                "2bb664fcf78509b2"
+            ]
+        ]
+    },
+    {
+        "id": "86ad71f61bf2e026",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "link in 6",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 1440,
+        "wires": [
+            [
+                "a6ec109815cc134d"
+            ]
+        ]
+    },
+    {
+        "id": "4d7099b4a1794b00",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "fa71555643db3129",
+        "name": "link in 7",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 1300,
+        "wires": [
+            [
+                "b21ab2eba8ca26c7"
+            ]
+        ]
+    },
+    {
+        "id": "70d199f20311b502",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "link in 8",
+        "links": [
+            "6b48892f2725bcf2"
+        ],
+        "x": 65,
+        "y": 2260,
+        "wires": [
+            [
+                "973c0443d868fe18"
+            ]
+        ]
+    },
+    {
+        "id": "973c0443d868fe18",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "not",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "$not (payload)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 2260,
+        "wires": [
+            [
+                "d14e5465800d177b"
+            ]
+        ]
+    },
+    {
+        "id": "c1d85f1d39ac411a",
+        "type": "ui-chart",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "group": "138840944464e75e",
+        "name": "Speed_chart",
+        "label": "",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "-1500",
+        "ymax": "1500",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "3",
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 670,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd25013623d893b7",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "speed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.speed_rpm",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "speed",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 680,
+        "wires": [
+            [
+                "c1d85f1d39ac411a"
+            ]
+        ]
+    },
+    {
+        "id": "a10e027f1bf326f7",
+        "type": "switch",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "enabled",
+        "property": "enabled",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 680,
+        "wires": [
+            [
+                "dd25013623d893b7",
+                "961ac12564b28df8"
+            ]
+        ]
+    },
+    {
+        "id": "6ab9b77e74fae5cb",
+        "type": "function",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "name": "collect",
+        "func": "// =============================================================================\n// PMSM Run-Cycle Collector & Analyser  — single Function node\n// Replaces: Convert + Normalize + merge_state + buffer + Flush\n//\n// Input:  raw socketcan frame  msg.payload = { canid, data, timestamp, ... }\n// Output: null while collecting\n//         full session payload with telemetry_summary on flush\n//\n// Flow variables (set from outside to configure without editing code):\n//   collection_max_ms      — hard time cap in ms         (default: 30000)\n//   collection_max_samples — max samples before force-flush (default: 600)\n//   stop_collection        — set true from any inject/link node to flush now\n//   sessionId              — optional label for the session\n// =============================================================================\n\nconst can = global.get('canDriver');\nif (!can) {\n    node.error('canDriver not found in global context — check settings.js');\n    return null;\n}\n\nconst { canid, data } = msg.payload;\nif (!data || canid === undefined) return null;\n\nconst buf = Buffer.from(data);\n\n// ── 1. PARSE CAN FRAME ────────────────────────────────────────────────────────\n// Only feedback frames are relevant for telemetry; control frames are ignored.\nlet partial = {};\n\nswitch (canid) {\n\n    case can.FRAME_ID.SPEED_FEEDBACK_MSG: {\n        const raw = can.speedFeedbackMsgUnpack(buf);\n        partial.speed_rpm   = can.speedFeedbackMsgSpeedRpmDecode(raw.speed_rpm);\n        partial.motor_state = raw.motor_state;\n        break;\n    }\n\n    case can.FRAME_ID.CURR_AMP_FEEDBACK_MSG: {\n        const raw = can.currAmpFeedbackMsgUnpack(buf);\n        partial.id = can.currAmpFeedbackMsgIDDecode(raw.i_d);\n        partial.iq = can.currAmpFeedbackMsgIQDecode(raw.i_q);\n        break;\n    }\n\n    case can.FRAME_ID.VOLTAGE_TEMPER_FEEDBACK_MSG: {\n        const raw = can.voltageTemperFeedbackMsgUnpack(buf);\n        partial.bus_voltage = can.voltageTemperFeedbackMsgBusVoltageDecode(raw.bus_voltage);\n        partial.temperature = can.voltageTemperFeedbackMsgTemperatureDecode(raw.temperature);\n        break;\n    }\n\n    case can.FRAME_ID.TORQUE_POWER_FEEDBACK_MSG: {\n        const raw = can.torquePowerFeedbackMsgUnpack(buf);\n        partial.torque = can.torquePowerFeedbackMsgTorqueDecode(raw.torque);\n        partial.power  = can.torquePowerFeedbackMsgPowerDecode(raw.power);\n        break;\n    }\n\n    case can.FRAME_ID.PID_FEEDBACK_MSG: {\n        const raw = can.pidFeedbackMsgUnpack(buf);\n        partial.pid_speed_kp  = can.pidFeedbackMsgPidSpeedKpDecode(raw.pid_speed_kp);\n        partial.pid_speed_ki  = can.pidFeedbackMsgPidSpeedKiDecode(raw.pid_speed_ki);\n        partial.pid_torque_kp = can.pidFeedbackMsgPidTorqueKpDecode(raw.pid_torque_kp);\n        partial.pid_torque_ki = can.pidFeedbackMsgPidTorqueKiDecode(raw.pid_torque_ki);\n        break;\n    }\n\n    default:\n        return null;\n}\n\n// ── 2. MERGE PARTIAL UPDATE INTO CURRENT STATE ────────────────────────────────\nlet current = flow.get(\"rc_current\") || {};\nObject.assign(current, partial);\ncurrent.ts         = msg.payload.timestamp || Date.now();\ncurrent.target_rpm = flow.get(\"targetRpm\") || null;   // snapshot UI setpoint per-sample\nflow.set(\"rc_current\", current);\n\n// Wait until at least motor_state is known before any session logic\nif (typeof current.motor_state === \"undefined\") return null;\n\n// ── 3. SESSION LIFECYCLE ──────────────────────────────────────────────────────\nconst STATE_IDLE   = 0;\nconst MAX_MS       = flow.get(\"collection_max_ms\")      || 30000;\nconst MAX_SAMPLES  = flow.get(\"collection_max_samples\") || 600;\n\nlet buffer  = flow.get(\"rc_buffer\")   || [];\nlet startTs = flow.get(\"rc_start_ts\") || null;\nlet active  = flow.get(\"rc_active\")   || false;\n\n// Start session when motor leaves IDLE for the first time\nif (!active && current.motor_state !== STATE_IDLE) {\n    active  = true;\n    startTs = current.ts;\n    buffer  = [];\n    flow.set(\"stop_collection\", false);\n    node.log(\"Run cycle started  ts=\" + startTs + \"  state=\" + current.motor_state);\n}\n\nif (active) {\n    buffer.push(JSON.parse(JSON.stringify(current)));\n    flow.set(\"rc_buffer\",   buffer);\n    flow.set(\"rc_start_ts\", startTs);\n    flow.set(\"rc_active\",   active);\n}\n\n// ── 4. FLUSH CONDITIONS ───────────────────────────────────────────────────────\nconst externalStop = flow.get(\"stop_collection\") === true;\nconst motorIdle    = active && current.motor_state === STATE_IDLE && buffer.length > 2;\nconst timedOut     = active && startTs !== null && (current.ts - startTs) >= MAX_MS;\nconst overLimit    = active && buffer.length >= MAX_SAMPLES;\n\nif (!active || (!externalStop && !motorIdle && !timedOut && !overLimit)) return null;\n\n// ── 5. RESET FLOW STATE ───────────────────────────────────────────────────────\nflow.set(\"rc_buffer\",       []);\nflow.set(\"rc_start_ts\",     null);\nflow.set(\"rc_active\",       false);\nflow.set(\"rc_current\",      {});\nflow.set(\"stop_collection\", false);\n\nconst flushReason = externalStop ? \"external_stop\"\n                  : motorIdle    ? \"motor_idle\"\n                  : timedOut     ? \"timeout\"\n                  :                \"max_samples\";\n\nnode.log(\"Run cycle flushed  reason=\" + flushReason + \"  samples=\" + buffer.length);\n\n// ── 6. ANALYSE ────────────────────────────────────────────────────────────────\nconst STATE_NAME = { 0: \"IDLE\", 4: \"ALIGNMENT\", 6: \"RUN\", 8: \"STOP_RAMP\" };\nconst RUN_STATE  = 6;\n\nfunction stateSequence(samples) {\n    const seq = [];\n    let prev = null;\n    for (const s of samples) {\n        const name = STATE_NAME[s.motor_state] || String(s.motor_state);\n        if (name !== prev) { seq.push(name); prev = name; }\n    }\n    return seq;\n}\n\nfunction calcStats(values) {\n    if (!values.length) return { max: 0, min: 0, avg: 0, std_dev: 0 };\n    const max = Math.max(...values);\n    const min = Math.min(...values);\n    const avg = values.reduce((a, b) => a + b, 0) / values.length;\n    const std_dev = Math.sqrt(values.reduce((a, v) => a + (v - avg) ** 2, 0) / values.length);\n    return {\n        max:     +max.toFixed(2),\n        min:     +min.toFixed(2),\n        avg:     +avg.toFixed(2),\n        std_dev: +std_dev.toFixed(2)\n    };\n}\n\nfunction detectSpeedSteps(runSamples, threshold) {\n    const steps = [];\n    for (let i = 1; i < runSamples.length; i++) {\n        const delta = (runSamples[i].speed_rpm || 0) - (runSamples[i - 1].speed_rpm || 0);\n        if (Math.abs(delta) >= threshold) {\n            steps.push({\n                ts:    runSamples[i].ts,\n                delta: Math.round(delta),\n                to:    Math.round(runSamples[i].speed_rpm || 0)\n            });\n        }\n    }\n    return steps;\n}\n\nconst runSamples = buffer.filter(s => s.motor_state === RUN_STATE);\nconst seq        = stateSequence(buffer);\nconst speedStat  = calcStats(runSamples.map(s => s.speed_rpm || 0));\nconst iqStat     = calcStats(runSamples.map(s => s.iq || 0));\nconst hasRun     = runSamples.length > 0;\nconst zeroTorque = buffer.every(s => (s.torque || 0) === 0);\nconst zeroPower  = buffer.every(s => (s.power  || 0) === 0);\nconst maxIqAbs   = runSamples.length ? Math.max(...runSamples.map(s => Math.abs(s.iq || 0))) : 0;\n\n// Last known PID state (arrives from PID_FEEDBACK_MSG frames)\nconst pidSamples = buffer.filter(s => s.pid_speed_kp !== undefined);\nconst lastPid    = pidSamples.length ? pidSamples[pidSamples.length - 1] : null;\n\n// Target RPM — derive from per-sample snapshots so history of setpoint changes is preserved\nconst targetSamples = buffer.filter(s => s.target_rpm !== null && s.target_rpm !== undefined);\nconst lastTargetRpm = targetSamples.length\n    ? targetSamples[targetSamples.length - 1].target_rpm\n    : null;\nconst targetHistory = [];\nlet prevTarget = null;\nfor (const s of buffer) {\n    if (s.target_rpm != null && s.target_rpm !== prevTarget) {\n        targetHistory.push({ ts: s.ts, target_rpm: s.target_rpm });\n        prevTarget = s.target_rpm;\n    }\n}\n\n// Settled samples: RUN-state where speed reached ≥90% of the LAST commanded target.\n// Excludes ramp-up transients — these stats reflect actual regulation quality.\nconst settledSamples = (lastTargetRpm !== null)\n    ? runSamples.filter(s =>\n          s.target_rpm === lastTargetRpm && (s.speed_rpm || 0) >= 0.9 * lastTargetRpm)\n    : [];\nconst settledStat = settledSamples.length\n    ? calcStats(settledSamples.map(s => s.speed_rpm || 0))\n    : { max: 0, min: 0, avg: 0, std_dev: 0 };\n// Speed disturbances counted only in settled region — ramp-up jumps are expected, not anomalies\nconst steps = detectSpeedSteps(settledSamples, 150);\n\n// Steady-state error: target_rpm - settled_avg. Positive = undershoot. Negative = overshoot.\nconst steadyStateError = (lastTargetRpm !== null && settledSamples.length > 0)\n    ? +(lastTargetRpm - settledStat.avg).toFixed(2)\n    : null;\nconst steadyStateErrorPct = (lastTargetRpm && lastTargetRpm > 0 && steadyStateError !== null)\n    ? +((Math.abs(steadyStateError) / lastTargetRpm) * 100).toFixed(1)\n    : null;\n\nconst symptoms = [];\nif (!hasRun)                                           symptoms.push(\"no RUN state reached — startup failure likely\");\nif (zeroTorque && zeroPower && hasRun)                 symptoms.push(\"zero torque and power throughout RUN\");\nif (lastTargetRpm !== null && settledSamples.length === 0 && hasRun)\n                                                       symptoms.push(\"motor never reached 90% of target \" + lastTargetRpm + \" RPM — possible stall or undershoot\");\nif (settledStat.std_dev > 30)                          symptoms.push(\"speed oscillation in settled region std_dev \" + settledStat.std_dev + \" RPM\");\nif (maxIqAbs > 1.0)                                    symptoms.push(\"high Iq peak \" + maxIqAbs.toFixed(3) + \" A\");\nif (steps.length)                                      symptoms.push(\"speed step changes detected: \" + steps.length);\nif (steadyStateError !== null && Math.abs(steadyStateError) > 50)\n                                                       symptoms.push(\"steady-state speed error \" + steadyStateError + \" RPM vs target \" + lastTargetRpm + \" RPM\");\nif (!symptoms.length)                                  symptoms.push(\"no anomalies detected\");\n\n// Qdrant query — deterministic 3-8 word phrase, no JSON, no punctuation\nlet qdrant_query;\nconst hasLargeError = steadyStateError !== null && Math.abs(steadyStateError) > 50;\nconst neverSettled  = lastTargetRpm !== null && settledSamples.length === 0 && hasRun;\nif      (!hasRun)                               qdrant_query = \"FOC startup failure alignment revup current\";\nelse if (maxIqAbs > 1.0)                        qdrant_query = \"FOC current saturation anti-windup Iq limit\";\nelse if (settledStat.std_dev > 30)              qdrant_query = \"FOC speed loop PI oscillation gain tuning\";\nelse if (hasLargeError || neverSettled)         qdrant_query = \"FOC speed steady-state error PI gain integral\";\nelse if (zeroTorque && speedStat.avg > 50)      qdrant_query = \"FOC zero torque Iq reference power loss\";\nelse if (steps.length > 1)                      qdrant_query = \"FOC speed ramp step response PI gain\";\nelse if (seq.includes(\"STOP_RAMP\"))             qdrant_query = \"FOC speed ramp normal shutdown deceleration\";\nelse                                            qdrant_query = \"PMSM FOC speed control normal operation\";\n\n// ── 7. OUTPUT ─────────────────────────────────────────────────────────────────\nmsg.payload = {\n    sessionId:    flow.get(\"sessionId\") || (\"sess-\" + Date.now()),\n    start_ts:     startTs,\n    end_ts:       buffer[buffer.length - 1].ts,\n    flush_reason: flushReason,\n    samples:      buffer,\n    telemetry_summary: {\n        state_sequence:   seq.join(\" → \"),\n        duration_ms:      buffer[buffer.length - 1].ts - startTs,\n        sample_count:     buffer.length,\n        run_sample_count: runSamples.length,\n        target_rpm:           lastTargetRpm,\n        target_rpm_history:   targetHistory,\n        speed:            { ...speedStat, steps },\n        settled_speed:    { ...settledStat, sample_count: settledSamples.length },\n        speed_error: {\n            steady_state_rpm: steadyStateError,\n            steady_state_pct: steadyStateErrorPct\n        },\n        current:          { ...iqStat, max_abs_iq: +maxIqAbs.toFixed(4) },\n        pid:              lastPid ? {\n                              speed_kp:  lastPid.pid_speed_kp,\n                              speed_ki:  lastPid.pid_speed_ki,\n                              torque_kp: lastPid.pid_torque_kp,\n                              torque_ki: lastPid.pid_torque_ki\n                          } : null,\n        torque_zero:  zeroTorque,\n        power_zero:   zeroPower,\n        symptoms:     symptoms,\n        qdrant_query: qdrant_query\n    }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 2780,
+        "wires": [
+            [
+                "67214c0f856ca52a",
+                "be49ba30bf6262c6",
+                "0e19375b7ada6d14",
+                "2cab91c476e1fb98"
+            ]
+        ]
+    },
+    {
+        "id": "4dff843f2d813952",
+        "type": "ui-template",
+        "z": "90e5c75767b44c31",
+        "g": "aa1bf3afa0df116b",
+        "group": "138840944464e75e",
+        "page": "",
+        "ui": "",
+        "name": "Result",
+        "order": 10,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<div class=\"analysis-container\">\n    {{ msg.payload }}\n</div>\n\n<style>\n    /* Настраиваем главный контейнер на заполнение всей площади */\n    .analysis-container {\n        width: 100%;\n        height: 100%;\n\n        /* Скролл и перенос текста */\n        overflow-y: auto;\n        white-space: pre-wrap;\n        word-wrap: break-word;\n\n        /* Оформление */\n        background-color: #2a2a2a !important;\n        color: #ffffff !important;\n        padding: 16px;\n        box-sizing: border-box;\n        /* Чтобы padding не раздувал ширину */\n\n        /* Шрифт */\n        font-size: 14px;\n        line-height: 1.5;\n    }\n\n    /* Убираем стандартные отступы родительского контейнера Dashboard, \n       чтобы наш фон прилегал вплотную к краям виджета */\n    .nrdb-ui-template {\n        padding: 0 !important;\n        height: 100%;\n    }\n\n    /* Темный скроллбар для эстетики */\n    .analysis-container::-webkit-scrollbar {\n        width: 6px;\n    }\n\n    .analysis-container::-webkit-scrollbar-thumb {\n        background-color: #444;\n        border-radius: 10px;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "analysis-container",
+        "x": 500,
+        "y": 2900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7e3e121768bb86b2",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "flow targetRpm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "targetRpm",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1020,
+        "y": 2300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11e374e52e7304b1",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "targetRpm",
+        "links": [
+            "b7d7275fa75050eb",
+            "a1e7320732041d3a"
+        ],
+        "x": 885,
+        "y": 2300,
+        "wires": [
+            [
+                "7e3e121768bb86b2"
+            ]
+        ]
+    },
+    {
+        "id": "b7d7275fa75050eb",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "link out 16",
+        "mode": "link",
+        "links": [
+            "11e374e52e7304b1"
+        ],
+        "x": 805,
+        "y": 2300,
+        "wires": []
+    },
+    {
+        "id": "4acf62286c8bdca0",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "payload 0",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 2460,
+        "wires": [
+            [
+                "a1e7320732041d3a"
+            ]
+        ]
+    },
+    {
+        "id": "a1e7320732041d3a",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "link out 17",
+        "mode": "link",
+        "links": [
+            "11e374e52e7304b1"
+        ],
+        "x": 1105,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "a7c5942d1ca66176",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "to socket can",
+        "info": "",
+        "x": 1130,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "b598c83ae262b272",
+        "type": "comment",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "to targetRpm",
+        "info": "",
+        "x": 1210,
+        "y": 2460,
+        "wires": []
+    },
+    {
+        "id": "961ac12564b28df8",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "targetRpm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "targetRpm",
+                "tot": "flow"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "targetRpm",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 720,
+        "wires": [
+            [
+                "c1d85f1d39ac411a"
+            ]
+        ]
+    },
+    {
+        "id": "41f1463fcdde4404",
+        "type": "link in",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "clear_chart",
+        "links": [
+            "edb2285f55410b9c",
+            "c4710ee09c8ac4ca"
+        ],
+        "x": 615,
+        "y": 620,
+        "wires": [
+            [
+                "bc5bd78e72a7a450"
+            ]
+        ]
+    },
+    {
+        "id": "bc5bd78e72a7a450",
+        "type": "change",
+        "z": "90e5c75767b44c31",
+        "g": "fe7f38753b062134",
+        "name": "clear",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "[]",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 620,
+        "wires": [
+            [
+                "c1d85f1d39ac411a"
+            ]
+        ]
+    },
+    {
+        "id": "edb2285f55410b9c",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "b5d6cbe3ba5e0b28",
+        "name": "link out 18",
+        "mode": "link",
+        "links": [
+            "41f1463fcdde4404"
+        ],
+        "x": 695,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "c4710ee09c8ac4ca",
+        "type": "link out",
+        "z": "90e5c75767b44c31",
+        "g": "d1e39630184a5f96",
+        "name": "link out 19",
+        "mode": "link",
+        "links": [
+            "41f1463fcdde4404"
+        ],
+        "x": 395,
+        "y": 960,
+        "wires": []
+    }
+]

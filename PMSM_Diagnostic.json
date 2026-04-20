@@ -1,0 +1,240 @@
+{
+  "name": "PMSM_Diagnostic_v4",
+  "nodes": [
+    {
+      "parameters": {
+        "topics": "node-red/request",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mqttTrigger",
+      "typeVersion": 1,
+      "position": [
+        1088,
+        1072
+      ],
+      "id": "7b5e1c74-b910-4ca0-86a4-0be38dbd16df",
+      "name": "MQTT Trigger",
+      "credentials": {
+        "mqtt": {
+          "id": "OGAFAeBvsY3seM1y",
+          "name": "MQTT account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Extract and validate telemetry summary.\n// Drops the raw samples array — the LLM must never see it raw.\n// Builds a downsampled RUN-state time series for LLM analysis.\nconst raw = JSON.parse($input.first().json.message);\nconst summary = raw.telemetry_summary;\nif (!summary) throw new Error('No telemetry_summary in payload — update Node-RED collector');\nif (!summary.qdrant_query) throw new Error('qdrant_query missing — update Node-RED collector');\nconst q = summary.qdrant_query;\nif (q.length > 80 || /[{}\\[\\]:\",]/.test(q)) {\n  throw new Error('qdrant_query contains invalid characters: ' + q);\n}\n\n// Build downsampled time series from RUN state samples only\nconst RUN_STATE  = 6;\nconst MAX_ROWS   = 60;\nconst allSamples = raw.samples || [];\nconst runSamples = allSamples.filter(s => s.motor_state === RUN_STATE);\nconst step = Math.max(1, Math.floor(runSamples.length / MAX_ROWS));\nconst t0   = runSamples.length ? runSamples[0].ts : 0;\nconst samples_series = runSamples\n  .filter((_, i) => i % step === 0)\n  .map(s => ({\n    t_ms:       s.ts - t0,\n    target_rpm: s.target_rpm != null ? s.target_rpm : null,\n    speed_rpm:  +(s.speed_rpm || 0).toFixed(1),\n    iq:         +(s.iq || 0).toFixed(4),\n    id:         +(s.id || 0).toFixed(4)\n  }));\n\nreturn [{ json: {\n  sessionId:         raw.sessionId,\n  flush_reason:      raw.flush_reason,\n  qdrant_query:      q,\n  telemetry_summary: summary,\n  samples_series\n} }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1312,
+        1072
+      ],
+      "id": "d2b6f842-a6a2-48e1-a771-3d4a5f57e229",
+      "name": "Extract Telemetry Summary"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://192.168.1.115:11434/api/embed",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ model: \"qllama/bge-small-en-v1.5:latest\", input: $json.qdrant_query }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1536,
+        1072
+      ],
+      "id": "a1b2c3d4-e5f6-7890-aaaa-111122223333",
+      "name": "Ollama Embed"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://192.168.1.115:6333/collections/motor_control_rag/points/search",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={{ JSON.stringify({ vector: $json.embeddings[0], limit: 5, with_payload: true }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1760,
+        1072
+      ],
+      "id": "b2c3d4e5-f6a7-8901-bbbb-222233334444",
+      "name": "Qdrant Search"
+    },
+    {
+      "parameters": {
+        "jsCode": "const telemetry  = $('Extract Telemetry Summary').item.json.telemetry_summary;\nconst qdrantQuery = $('Extract Telemetry Summary').item.json.qdrant_query;\nconst sessionId   = $('Extract Telemetry Summary').item.json.sessionId;\nconst series      = $('Extract Telemetry Summary').item.json.samples_series || [];\nconst hits = $input.first().json.result || [];\n\nconst ctxLines = [];\nhits.slice(0, 4).forEach((hit, i) => {\n  const p   = hit.payload || {};\n  const ctx = p.engineering_context || {};\n  ctxLines.push('[' + (i+1) + '] score=' + hit.score.toFixed(3) + '  topic=' + p.topic + '  subtopic=' + p.subtopic);\n  ctxLines.push('    problem       : ' + (ctx.problem || 'n/a'));\n  ctxLines.push('    when_to_use   : ' + (ctx.when_to_use || 'n/a'));\n  ctxLines.push('    related_params: ' + JSON.stringify(ctx.related_parameters || []));\n  ctxLines.push('    content       : ' + (p.content || '').slice(0, 350));\n  ctxLines.push('');\n});\n\nconst pid = telemetry.pid || {};\nconst err = telemetry.speed_error || {};\nconst settled = telemetry.settled_speed || {};\nconst targetHistory = (telemetry.target_rpm_history || [])\n  .map(e => e.target_rpm + ' RPM').join(' -> ');\n\n// Build compact time-series table\nconst hdr  = '  t_ms    | target_rpm | speed_rpm | iq_A    | id_A';\nconst sep  = '  --------|------------|-----------|---------|--------';\nconst rows = series.map(r =>\n  '  ' + String(r.t_ms).padEnd(7) +\n  ' | ' + String(r.target_rpm != null ? r.target_rpm : 'N/A').padEnd(10) +\n  ' | ' + String(r.speed_rpm).padEnd(9) +\n  ' | ' + String(r.iq).padEnd(7) +\n  ' | ' + String(r.id)\n);\n\nconst lines = [\n  'Diagnose this PMSM motor run cycle.',\n  'Output ONLY a raw JSON object. No markdown. No backticks. No text before or after.',\n  '',\n  'TELEMETRY SUMMARY:',\n  '  state_sequence       = ' + telemetry.state_sequence,\n  '  duration_ms          = ' + telemetry.duration_ms,\n  '  target_rpm           = ' + (telemetry.target_rpm != null ? telemetry.target_rpm : 'N/A'),\n  '  target_rpm_history   = ' + (targetHistory || 'N/A'),\n  '  speed_max_rpm        = ' + telemetry.speed.max,\n  '  speed_min_rpm        = ' + telemetry.speed.min,\n  '  speed_avg_rpm        = ' + telemetry.speed.avg,\n  '  speed_std_dev        = ' + telemetry.speed.std_dev,\n  '  speed_steps          = ' + telemetry.speed.steps.length + ' sudden change(s) detected',\n  '  settled_speed_avg    = ' + (settled.avg     != null ? settled.avg     : 'N/A'),\n  '  settled_speed_std    = ' + (settled.std_dev != null ? settled.std_dev : 'N/A'),\n  '  settled_sample_count = ' + (settled.sample_count != null ? settled.sample_count : '0'),\n  '  steady_state_err_rpm = ' + (err.steady_state_rpm != null ? err.steady_state_rpm : 'N/A'),\n  '  steady_state_err_pct = ' + (err.steady_state_pct != null ? err.steady_state_pct + '%' : 'N/A'),\n  '  avg_iq_A             = ' + telemetry.current.avg,\n  '  max_abs_iq_A         = ' + telemetry.current.max_abs_iq,\n  '  pid_speed_kp         = ' + (pid.speed_kp  != null ? pid.speed_kp  : 'N/A'),\n  '  pid_speed_ki         = ' + (pid.speed_ki  != null ? pid.speed_ki  : 'N/A'),\n  '  pid_torque_kp        = ' + (pid.torque_kp != null ? pid.torque_kp : 'N/A'),\n  '  pid_torque_ki        = ' + (pid.torque_ki != null ? pid.torque_ki : 'N/A'),\n  '  torque_zero          = ' + telemetry.torque_zero,\n  '  power_zero           = ' + telemetry.power_zero,\n  '  symptoms             = ' + telemetry.symptoms.join(' | '),\n  '',\n  'NOTE: steady_state_err_rpm = target_rpm - settled_speed_avg (ramp-up excluded).',\n  '      Positive = undershoot (settled below target).',\n  '      Negative = overshoot (settled above target).',\n  '      Use settled_speed_avg/std for regulation quality, not speed_avg_rpm.',\n  '',\n  'TIME SERIES — RUN state, ' + series.length + ' sample(s):',\n  hdr,\n  sep,\n  rows.join('\\n'),\n  '',\n  'RETRIEVED KNOWLEDGE (qdrant query: ' + qdrantQuery + '):',\n  ctxLines.join('\\n'),\n  'Return ONLY this JSON (fill in all placeholders, no other text):',\n  '{',\n  '  \"state\": \"<normal|unstable|inefficient|stalled>\",',\n  '  \"confidence\": 0.0,',\n  '  \"diagnosis\": \"<2-3 sentences: cite target_rpm, settled_speed_avg vs target_rpm, steady_state_err_rpm and settled_speed_std by number; note if motor never settled>\",',\n  '  \"root_cause\": \"<single most likely engineering cause>\",',\n  '  \"recommendations\": [',\n  '    {',\n  '      \"parameter\": \"<exact param name e.g. pid_speed_kp>\",',\n  '      \"current_value\": null,',\n  '      \"action\": \"<increase|decrease|check|monitor>\",',\n  '      \"reason\": \"<cite knowledge base topic and problem field>\"',\n  '    }',\n  '  ],',\n  '  \"used_context\": [\"<topic/subtopic from knowledge results>\"],',\n  '  \"qdrant_query_used\": \"' + qdrantQuery + '\"',\n  '}'\n];\n\nreturn [{ json: { prompt: lines.join('\\n'), sessionId } }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1984,
+        1072
+      ],
+      "id": "c3d4e5f6-a7b8-9012-cccc-333344445555",
+      "name": "Build Prompt"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.prompt }}",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        2208,
+        1072
+      ],
+      "id": "4ad4f146-8283-4e2e-97dc-74330cd1cd06",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": "gemma4:31b",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+      "typeVersion": 1,
+      "position": [
+        2208,
+        1312
+      ],
+      "id": "e9f144ed-80e1-4862-bdf6-14d640ce389e",
+      "name": "Ollama Chat Model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "9tEKiMA2Ohtrhpop",
+          "name": "Ollama account 3"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "topic": "node-red/data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mqtt",
+      "typeVersion": 1,
+      "position": [
+        2432,
+        1072
+      ],
+      "id": "79cce48d-06aa-4a49-b0cd-24f5bdac1d58",
+      "name": "MQTT",
+      "credentials": {
+        "mqtt": {
+          "id": "OGAFAeBvsY3seM1y",
+          "name": "MQTT account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "MQTT Trigger": {
+      "main": [
+        [
+          {
+            "node": "Extract Telemetry Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Telemetry Summary": {
+      "main": [
+        [
+          {
+            "node": "Ollama Embed",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Embed": {
+      "main": [
+        [
+          {
+            "node": "Qdrant Search",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Qdrant Search": {
+      "main": [
+        [
+          {
+            "node": "Build Prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build Prompt": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "MQTT",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ollama Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "3ed0a6dd-a92f-43b3-af7c-f4bb87c86634",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "4946d0682af602fd6614d831c974f12a4d0d19e86739167a7a31862991c76859"
+  },
+  "id": "TQTJ2wnLjEqt12Pc",
+  "tags": []
+}
